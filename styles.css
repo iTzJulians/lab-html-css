@@ -45,6 +45,7 @@ header {
     font-size: 1.5rem;
     text-align: center;
     margin: 0;
+    color: var(--color1);
 }
 
 .PFP {
@@ -61,15 +62,14 @@ header {
 
 .Informacion {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: end;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
     border-radius: 1px;
+    align-self: flex-end;
+    gap: 10px;
 }
 
-.Informacion * {
-    margin: 1px;
-}
 
 .Profile * {
     text-align: center;
@@ -84,6 +84,7 @@ header {
     padding: 3%;
     align-self: flex-end;
     justify-content: center;
+    color: var(--color1);
 }
 
 
@@ -92,15 +93,63 @@ header {
 }
 
 
+.Github {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
 
-.GitHub {
-    width: 30%;
+.QR {
+    width: 80%;
     border-radius: 0.1cm;
+    margin: 0px;
+    align-self: center;
+    
 }
 
 .Datos {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    align-items: center;
+    width: 25%;
+
+}
+
+
+.fa-location-dot {
+    font-size: 8px;
+    color: var(--color3);
+}
+
+.fa-code {
+    font-size: 8px;
+    color: var(--color3);
+
+}
+
+.fa-envelope {
+
+    font-size: 8px;
+    color: var(--color3);
+}
+
+.fa-github {
+
+    font-size: 8px;
+    color: var(--color3);
+    align-self: center;
+}
+
+b {
+    color: var(--color3);
+}
+
+a {
+
+    color: var(--color3);
+    align-self: center;
 }
